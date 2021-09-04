@@ -1,0 +1,16 @@
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/bin/Debug/net5.0/interfaces-tutorial
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/bin/Debug/net5.0/interfaces-tutorial.deps.json
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/bin/Debug/net5.0/interfaces-tutorial.runtimeconfig.json
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/bin/Debug/net5.0/interfaces-tutorial.runtimeconfig.dev.json
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/bin/Debug/net5.0/interfaces-tutorial.dll
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/bin/Debug/net5.0/ref/interfaces-tutorial.dll
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/bin/Debug/net5.0/interfaces-tutorial.pdb
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/Debug/net5.0/interfaces-tutorial.csproj.AssemblyReference.cache
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/Debug/net5.0/interfaces-tutorial.GeneratedMSBuildEditorConfig.editorconfig
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/Debug/net5.0/interfaces-tutorial.AssemblyInfoInputs.cache
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/Debug/net5.0/interfaces-tutorial.AssemblyInfo.cs
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/Debug/net5.0/interfaces-tutorial.csproj.CoreCompileInputs.cache
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/Debug/net5.0/interfaces-tutorial.dll
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/Debug/net5.0/ref/interfaces-tutorial.dll
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/Debug/net5.0/interfaces-tutorial.pdb
+/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/Debug/net5.0/interfaces-tutorial.genruntimeconfig.cache

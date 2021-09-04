@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "interfaces-tutorial/1.0.0": {
+        "runtime": {
+          "interfaces-tutorial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "interfaces-tutorial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/redwoods/Documents/git/csci-330/interfaces-tutorial/interfaces-tutorial.csproj": {}
+  },
+  "projects": {
+    "/home/redwoods/Documents/git/csci-330/interfaces-tutorial/interfaces-tutorial.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/redwoods/Documents/git/csci-330/interfaces-tutorial/interfaces-tutorial.csproj",
+        "projectName": "interfaces-tutorial",
+        "projectPath": "/home/redwoods/Documents/git/csci-330/interfaces-tutorial/interfaces-tutorial.csproj",
+        "packagesPath": "/home/redwoods/.nuget/packages/",
+        "outputPath": "/home/redwoods/Documents/git/csci-330/interfaces-tutorial/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/redwoods/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/redwoods/.dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
