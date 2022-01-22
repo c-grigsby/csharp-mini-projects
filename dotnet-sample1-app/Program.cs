@@ -132,7 +132,7 @@ namespace TV
         ReportedInjuries = 21
       };
       List<Tool> rentalTools = new List<Tool>{
-        t1, t2, t3, t3, t4, t5, t6, t7
+        t1, t2, t3, t4, t5, t6, t7
       };
       printList(rentalTools);
 
