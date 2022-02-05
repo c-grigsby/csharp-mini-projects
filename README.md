@@ -2,7 +2,7 @@
 
 <img
           src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Coastal_Carolina_Chanticleers_logo.svg/1200px-Coastal_Carolina_Chanticleers_logo.svg.png"
-          height="140"
+          height="135"
           alt="War Chicken"
         />
 
@@ -11,7 +11,7 @@
 ![dotnet](https://img.shields.io/badge/.NET-v5.0-teal)
 ![language](https://img.shields.io/badge/language-C%23-orange)
 
-This repos hosts a collections of fundmental tutorials on C# and .NET
+This repo hosts a collections of fundmental tutorials on C# and .NET
 <br/>
 _Coursework for CCU_
 
@@ -20,4 +20,5 @@ _Coursework for CCU_
 ## Project Details
 
 - Objected Oriented Design (OOD) concepts
+- .NET Core Web API
 - Programming operations 
