@@ -11,7 +11,7 @@
 ![dotnet](https://img.shields.io/badge/.NET-v5.0-teal)
 ![language](https://img.shields.io/badge/language-C%23-orange)
 
-This repo hosts a collections of fundmental tutorials on C# and .NET
+This repo hosts a collections of fundamental tutorials on C# and .NET
 <br/>
 _Coursework for CCU_
 
