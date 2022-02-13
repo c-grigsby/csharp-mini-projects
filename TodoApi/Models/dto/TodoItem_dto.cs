@@ -1,11 +1,11 @@
-﻿namespace TodoApi.Models
+namespace TodoApi.Models
 {
-  public class TodoItem
+  public class TodoItemDTO
   {
+    private string status_;
     public long Id { get; set; }
     public string Name { get; set; }
     public string Status { get; set; }
-    public string Secret { get; set; }
     public string PersonAssigned { get; set; }
     public int Priority { get; set; }
   }

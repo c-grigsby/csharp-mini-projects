@@ -59,7 +59,9 @@ namespace TodoApi.Controllers
       }
 
       todoItem.Name = todoItemDTO.Name;
-      todoItem.IsComplete = todoItemDTO.IsComplete;
+      todoItem.Status = todoItemDTO.Status;
+      todoItem.PersonAssigned = todoItemDTO.PersonAssigned;
+      todoItem.Priority = todoItemDTO.Priority;
 
       try
       {
@@ -79,8 +81,10 @@ namespace TodoApi.Controllers
     {
       var todoItem = new TodoItem
       {
-        IsComplete = todoItemDTO.IsComplete,
-        Name = todoItemDTO.Name
+        Name = todoItemDTO.Name,
+        Status = todoItemDTO.Status,
+        PersonAssigned = todoItemDTO.PersonAssigned,
+        Priority = todoItemDTO.Priority
       };
 
       _context.TodoItems.Add(todoItem);
@@ -103,7 +107,6 @@ namespace TodoApi.Controllers
       {
         return NotFound();
       }
-
       _context.TodoItems.Remove(todoItem);
       await _context.SaveChangesAsync();
 
@@ -115,7 +118,9 @@ namespace TodoApi.Controllers
     {
       Id = todoItem.Id,
       Name = todoItem.Name,
-      IsComplete = todoItem.IsComplete
+      Status = todoItem.Status,
+      PersonAssigned = todoItem.PersonAssigned,
+      Priority = todoItem.Priority
     };
     private bool TodoItemExists(long id)
     {
