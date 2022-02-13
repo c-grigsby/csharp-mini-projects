@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-do CRUD</title>
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <h1>To-do CRUD</h1>
+    <h3>Add</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+      <input
+        type="text"
+        id="add-name"
+        name="todo-title"
+        placeholder="New To-Do Item Title"
+      />
+      <input
+        type="text"
+        id="person-assigned"
+        name="todo-person"
+        placeholder="Person Assigned To"
+      />
+      <label id="priorty-label" for="priority">Priority-Level </label>
+      <select name="priority" id="priority-select">
+        <option value="1">1: Immediate Attention</option>
+        <option value="2">2: Within Current Sprint</option>
+        <option value="3">3: Long-term Objective</option>
+      </select>
+      <p>Please select the status of the to-do item:</p>
+      <input type="radio" id="status1" name="status" value="Not Started" />
+      <label for="status1">Not Started</label>
+      <input type="radio" id="status2" name="status" value="In Progress" />
+      <label for="status2">In Progress</label>
+      <input type="radio" id="status3" name="status" value="Complete" />
+      <label for="status3">Complete</label> <br />
+      <input type="submit" id="input" value="Add Todo Item" />
+    </form>
+
+    <div id="editForm">
+      <h3>Edit</h3>
+      <form action="javascript:void(0);" onsubmit="updateItem()">
+        <input type="hidden" id="edit-id" />
+        <input
+          type="radio"
+          id="status1"
+          name="edit-status"
+          value="Not Started"
+        />
+        <label for="status1">Not Started</label>
+        <input
+          type="radio"
+          id="status2"
+          name="edit-status"
+          value="In Progress"
+        />
+        <label for="status2">In Progress</label>
+        <input type="radio" id="status3" name="edit-status" value="Complete" />
+        <label for="status3">Complete</label>
+        <input type="text" id="edit-name" placeholder="To-do Item Title" />
+        <input type="text" id="edit-person" placeholder="Person Assigned To" />
+        <label id="priorty-label" for="priority">Priority-Level </label>
+        <select name="priority" id="edit-priority-select">
+          <option value="1">1: Immediate Attention</option>
+          <option value="2">2: Within Current Sprint</option>
+          <option value="3">3: Long-term Objective</option>
+        </select>
+        <input type="submit" value="Save" />
+        <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+      </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table id="todo_table">
+      <tr>
+        <th>Status</th>
+        <th>To-do Title</th>
+        <th>Person Assigned</th>
+        <th>Priority</th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tbody id="todos"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+      getItems();
+    </script>
+  </body>
+</html>
