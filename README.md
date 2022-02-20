@@ -2,7 +2,7 @@
 
 <img
           src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Coastal_Carolina_Chanticleers_logo.svg/1200px-Coastal_Carolina_Chanticleers_logo.svg.png"
-          height="135"
+          height="130"
           alt="War Chicken"
         />
 
@@ -21,4 +21,6 @@ _Coursework for CCU_
 
 - Objected Oriented Design (OOD) concepts
 - .NET Core Web API
+- Custom attribute handling
+- Reflection for processing decisions
 - Programming operations 
