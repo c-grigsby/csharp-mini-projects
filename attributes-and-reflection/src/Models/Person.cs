@@ -12,6 +12,7 @@ namespace AttributePractice
     public string FirstName { get; set; }
     [PersonalInformation(1)]
     public string LastName { get; set; }
+    [NoJson]
     [PersonalInformation(3)]
     public int SSN { get; set; }
     public int Age { get; set; }
