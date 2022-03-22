@@ -21,6 +21,9 @@ _Coursework for CCU_
 
 - Objected Oriented Design (OOD) concepts
 - .NET Core Web API
+- CRUD operations 
 - Custom attribute handling
 - Reflection for processing decisions
 - Programming operations 
+- Service-oriented architecture
+- MongoDB document & collection interaction
