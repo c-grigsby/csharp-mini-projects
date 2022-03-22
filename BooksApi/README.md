@@ -6,24 +6,25 @@
           alt="War Chicken"
         />
 
-# CSharp Mini Projects
+# Data Access Module
 
 ![dotnet](https://img.shields.io/badge/.NET-v5.0-teal)
 ![language](https://img.shields.io/badge/language-C%23-orange)
 
-This repo hosts a collection of tutorials on C# and .NET
+Server-side application for interactions with persisted data
 <br/>
-_Coursework for CCU_
 
 </div>
 
 ## Project Details
 
-- Objected Oriented Design (OOD) concepts
 - .NET Core Web API
-- CRUD operations 
-- Custom attribute handling
-- Reflection for processing decisions
-- Programming operations 
-- Service-oriented architecture
-- MongoDB document & collection interaction
+- persists data via MongoDB 
+- CRUD operations on Bookstore and Toolstore documents
+- Layered/Service-oriented architecture
+- Utilizes dependency injection 
+- Objected Oriented Design (OOD) concepts
+
+---
+
+##### source-code: https://github.com/CCU-Computing/library-grigsby9
