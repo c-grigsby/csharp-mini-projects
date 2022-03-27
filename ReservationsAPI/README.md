@@ -6,27 +6,24 @@
           alt="War Chicken"
         />
 
-# CSharp Mini Projects
+# Reservations API
 
 ![dotnet](https://img.shields.io/badge/.NET-v5.0-teal)
 ![language](https://img.shields.io/badge/language-C%23-orange)
 
-This repo hosts a collection of tutorials on C# and .NET
+Server-side application for reservation bookings
 <br/>
-_Coursework for CCU_
 
 </div>
 
 ## Project Details
 
-- Objected Oriented Design (OOD) concepts
 - .NET Core Web API
 - CRUD operations 
-- Custom attribute handling
-- Reflection for processing decisions
-- Programming operations 
 - Service-oriented architecture
-- Memory Management
-- MongoDB document & collection interaction
-- Asynchronous programming
-- wwwRoot utilization 
+- Asynchronous Programming 
+- wwwroot for API interactions
+
+---
+
+#### source-repo: https://github.com/CCU-Computing/reservations-grigsby9
