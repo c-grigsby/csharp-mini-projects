@@ -13,7 +13,6 @@
 
 This repo hosts a collection of tutorials on C# and .NET
 <br/>
-_Coursework for CCU_
 
 </div>
 
