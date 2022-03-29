@@ -17,12 +17,13 @@ button {
   margin: 18px;
   padding: 5px;
   background-color: beige;
-  border-radius: 5px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 #card {
   margin-top: 10px;
-  padding: 2px;
+  padding: 5px;
   text-align: center;
   width: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -33,6 +34,10 @@ button {
 
 #reservations {
   text-align: left;
+  color: #463d3e;
+  font-size: 18px;
+  padding-left: 15px;
+  font-weight: 500;
 }
 
 #sandbox {
