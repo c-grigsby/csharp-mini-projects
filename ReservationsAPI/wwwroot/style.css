@@ -16,7 +16,7 @@ body {
   margin-top: 20px;
 }
 
-button {
+#button {
   margin: 18px;
   padding: 12px;
   background-color: #565656;
@@ -40,10 +40,25 @@ button {
   color: #fff;
 }
 
-#reservations {
+input {
+  border-radius: 5px;
+  border: none;
+  padding: 6px;
+  font-size: medium;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+input:focus,
+input:active {
+  border-color: transparent;
+  border-bottom: 2px solid #fba92c;
+}
+
+.reservations {
   text-align: left;
   color: #fff;
-  font-size: 18px;
+  /* font-size: 18px; */
   padding-left: 15px;
   font-weight: 500;
 }
@@ -56,11 +71,11 @@ button {
   color: #fff;
   border-radius: 75px;
   background-color: #fba92c;
-  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 12px 1px rgba(0, 0, 0, 0.2);
 }
 
 #sandbox h4 {
-  padding-top: 22%;
+  margin-top: 60px;
 }
 
 /* * {
