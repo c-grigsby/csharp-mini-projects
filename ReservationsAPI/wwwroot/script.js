@@ -28,11 +28,15 @@ const getReservations = async () => {
   loadingSpinner1.style.display = 'none';
   getAllReservationsHeader.style.visibility = 'visible';
 
-  reservationText.innerHTML = data
-    .map((reservation) => {
-      return `ID: ${reservation.id}<br/> Customer Name: ${reservation.customerName}<br/> Time Requested: ${reservation.timeRequested}<br/> Restuarant: ${reservation.restaurant}<br/><br/>`;
-    })
-    .join('');
+  if (data.length != 0) {
+    reservationText.innerHTML = data
+      .map((reservation) => {
+        return `ID: ${reservation.id}<br/> Customer Name: ${reservation.customerName}<br/> Time Requested: ${reservation.timeRequested}<br/> Restuarant: ${reservation.restaurant}<br/><br/>`;
+      })
+      .join('');
+  } else {
+    reservationByNameText.innerHTML = `<p style="text-align:center">Hmm, no reservations found</p>`;
+  }
 };
 
 const getReservationsByName = async () => {
@@ -56,9 +60,26 @@ const getReservationsByName = async () => {
   customerNameLabel.style.visibility = 'visible';
   customerNameInput.style.visibility = 'visible';
 
-  reservationByNameText.innerHTML = data
-    .map((reservation) => {
-      return `ID: ${reservation.id}<br/> Customer Name: ${reservation.customerName}<br/> Time Requested: ${reservation.timeRequested}<br/> Restuarant: ${reservation.restaurant}<br/><br/>`;
-    })
-    .join('');
+  if (data.length != 0) {
+    reservationByNameText.innerHTML = data
+      .map((reservation) => {
+        return `ID: ${reservation.id}<br/> Customer Name: ${reservation.customerName}<br/> Time Requested: ${reservation.timeRequested}<br/> Restuarant: ${reservation.restaurant}<br/><br/>`;
+      })
+      .join('');
+  } else {
+    reservationByNameText.innerHTML = `<p style="text-align:center">Hmm, no reservations found for customer</p>`;
+  }
+};
+
+const toggleColor = () => {
+  sandbox.style.backgroundColor = `${getRandomColor()}`;
+};
+
+const getRandomColor = () => {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
 };
