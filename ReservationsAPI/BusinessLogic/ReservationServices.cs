@@ -23,6 +23,10 @@ namespace ReservationSystem.BusinessLogic
     {
       return await _repo.GetById(id);
     }
+    public async Task<IList<Reservation>> GetByName(string name)
+    {
+      return await _repo.GetByName(name);
+    }
 
     public async Task<Reservation> Create(Reservation res)
     {

@@ -6,27 +6,26 @@
           alt="War Chicken"
         />
 
-# CSharp Mini Projects
+# Reservations API
 
 ![dotnet](https://img.shields.io/badge/.NET-v5.0-teal)
 ![language](https://img.shields.io/badge/language-C%23-orange)
 
-This repo hosts a collection of tutorials on C# and .NET
+Server-side application for reservation bookings
 <br/>
 
 </div>
 
 ## Project Details
 
-- Objected Oriented Design (OOD) concepts
 - .NET Core Web API
 - CRUD operations 
-- Custom attribute handling
-- Reflection for processing decisions
-- Programming operations 
 - Service-oriented architecture
-- Memory Management
-- MongoDB document & collection interaction
-- Asynchronous programming
-- wwwroot utilization 
-- Ridiculously awesome loading spinner for ReservationsAPI wwwroot UI
+- Asynchronous Programming 
+- wwwroot for API interactions
+- Ridiculously awesome loading spinner
+- Filter reservation data by customer name
+
+---
+
+#### source-code: https://github.com/CCU-Computing/reservations-grigsby9

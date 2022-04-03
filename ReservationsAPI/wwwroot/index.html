@@ -11,7 +11,7 @@
   <div id="container">
     <div id="card">
       <h3 id ="all_reservations_header">Get All Reservations</h3>
-      <div id="reservations"></div>
+      <div class="reservations" id="reservations"></div>
     
       <div class="preloader" id="preloader_1">
         <div class="box">
@@ -55,14 +55,69 @@
         </div>
       </div>
     </div>
-    <button onclick="getReservations()">Click to show all</button>
+    <button id="button" onclick="getReservations()">Click to show all</button>
   </div>
 
   <div id="container">
     <div id="sandbox">
       <h4>Sandbox</h4>
     </div>
-    <button onclick="toggleColor()">Click to change color</button>
+    <button id="button" onclick="toggleColor()">Click to change color</button>
+  </div>
+
+  <div id="container">
+    <div id="card">
+      <h3 id ="getByName_reservations_header">Get Reservations By Name</h3>
+      <form action="/action_page.php">
+        <label id="customer_name_label" for="customer_name">Customer Name:</label>
+        <input type="text" id="customer_name_input" name="customer_name"><br/><br/>
+        <!-- <input type="submit" value="Submit" id="button"> -->
+      </form>
+      <div class="reservations" id="reservations_byName"></div>
+    
+      <div class="preloader" id="preloader_2">
+        <div class="box">
+          <div class="box__inner">
+            <div class="box__back-flap"></div>
+            <div class="box__right-flap"></div>
+            <div class="box__front-flap"></div>
+            <div class="box__left-flap"></div>
+            <div class="box__front"></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__inner">
+            <div class="box__back-flap"></div>
+            <div class="box__right-flap"></div>
+            <div class="box__front-flap"></div>
+            <div class="box__left-flap"></div>
+            <div class="box__front"></div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="line__inner"></div>
+        </div>
+        <div class="line">
+          <div class="line__inner"></div>
+        </div>
+        <div class="line">
+          <div class="line__inner"></div>
+        </div>
+        <div class="line">
+          <div class="line__inner"></div>
+        </div>
+        <div class="line">
+          <div class="line__inner"></div>
+        </div>
+        <div class="line">
+          <div class="line__inner"></div>
+        </div>
+        <div class="line">
+          <div class="line__inner"></div>
+        </div>
+      </div>
+    </div>
+    <button id="button" onclick="getReservationsByName()">Click to show</button>
   </div>
 
   <script src="script.js"></script>
