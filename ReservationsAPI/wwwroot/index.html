@@ -55,6 +55,7 @@
         </div>
       </div>
     </div>
+    
     <button id="button" onclick="getReservations()">Click to show all</button>
   </div>
 
@@ -68,11 +69,12 @@
   <div id="container">
     <div id="card">
       <h3 id ="getByName_reservations_header">Get Reservations By Name</h3>
+
       <form action="/action_page.php">
         <label id="customer_name_label" for="customer_name">Customer Name:</label>
         <input type="text" id="customer_name_input" name="customer_name"><br/><br/>
-        <!-- <input type="submit" value="Submit" id="button"> -->
       </form>
+
       <div class="reservations" id="reservations_byName"></div>
     
       <div class="preloader" id="preloader_2">
@@ -117,6 +119,7 @@
         </div>
       </div>
     </div>
+
     <button id="button" onclick="getReservationsByName()">Click to show</button>
   </div>
 
