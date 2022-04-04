@@ -77,26 +77,14 @@ input:active {
   margin-top: 60px;
 }
 
-/* * {
-	border: 0;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-} */
+/* Loading Spinner */
 :root {
   --dur: 2s;
   --bg: #e3e4e8;
   --fg: #17181c;
   font-size: calc(12px + (24 - 12) * (100vw - 320px) / (2560 - 320));
 }
-/* body {
-	background: var(--bg);
-	color: var(--fg);
-	display: flex;
-	font: 1em/1.5 sans-serif;
-	height: 100vh;
-	overflow: hidden;
-} */
+
 .preloader,
 .box,
 .box__inner,
