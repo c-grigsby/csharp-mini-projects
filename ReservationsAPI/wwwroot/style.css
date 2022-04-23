@@ -78,6 +78,7 @@ input:active {
 }
 
 /* Loading Spinner */
+/* Courtesy of: https://www.sliderrevolution.com/resources/css-loaders/ */
 :root {
   --dur: 2s;
   --bg: #e3e4e8;
